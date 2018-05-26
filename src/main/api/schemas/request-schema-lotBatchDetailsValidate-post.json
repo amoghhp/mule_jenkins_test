@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "product": {
+      "type": "string"
+    },
+    "lotBatchNo": {
+      "type": "string"
+    },
+    "dosage": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "product",
+    "lotBatchNo"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "inValid",
+  "errors": {
+    "code": "AMG-2001",
+    "message": "Product itself is inValid"
+  },
+  "lotBatchInfo": null
+}

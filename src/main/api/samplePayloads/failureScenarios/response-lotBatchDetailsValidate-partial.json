@@ -1,0 +1,11 @@
+{
+  "status": "partial",
+  "errors": {
+    "code": "AMG-1002",
+    "message": "Batch no is valid but enterd product is not valid"
+  },
+  "lotBatchInfo": {
+    "attri1": "",
+    "attri2": ""
+  }
+}

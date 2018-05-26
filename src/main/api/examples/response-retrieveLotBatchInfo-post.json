@@ -1,0 +1,20 @@
+{
+  "status": "valid",
+  "errors": null,
+  "lotBatchInfo": [
+    {
+      "lotBatchNo": "lotBatchNo",
+      "lotBatchDetails": {
+        "attri1": "",
+        "attri2": ""
+      }
+    },
+    {
+      "lotBatchNo": "lotBatchNo",
+      "lotBatchDetails": {
+        "attri1": "",
+        "attri2": ""
+      }
+    }
+  ]
+}

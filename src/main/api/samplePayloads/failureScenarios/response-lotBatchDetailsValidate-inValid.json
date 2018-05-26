@@ -1,0 +1,8 @@
+{
+  "status": "inValid",
+  "errors": {
+    "code": "AMG-1001",
+    "message": "Batch no itself is not valid"
+  },
+  "lotBatchInfo": null
+}

@@ -1,0 +1,36 @@
+#%RAML 1.0
+title: Lot Batch Info API
+version : 1.0
+
+traits: !include traits/all-traits.raml
+
+/lotbatch:
+  description: To enable consumers to process Lot Batch details
+  /validate:
+   description: To enable consumers to validate the entered Lot Batch and product details 
+   post:
+      description: To return Lot Batch details if input details are valid
+      is: [client-enforcement]
+      body: 
+          application/json: 
+            schema: !include schemas/request-schema-lotBatchDetailsValidate-post.json
+            example: !include examples/request-lotBatchDetailsValidate-post.json 
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/response-lotBatchDetailsValidate-post.json
+  /retrievebatchtree:
+   description: To enable consumers to retrieve complete batch tree information related to entered Lot Batch and product details 
+   post:
+      description: To return batch tree information if input details are valid
+      is: [client-enforcement]
+      body: 
+          application/json: 
+            schema: !include schemas/request-schema-retrieveLotBatchInfo-post.json
+            example: !include examples/request-retrieveLotBatchInfo-post.json 
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/response-retrieveLotBatchInfo-post.json

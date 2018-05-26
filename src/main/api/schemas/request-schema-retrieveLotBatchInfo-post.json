@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "product": {
+      "type": "string"
+    },
+    "lotBatchNo": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "lotBatchNo"
+  ]
+}

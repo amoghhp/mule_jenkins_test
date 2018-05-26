@@ -1,0 +1,11 @@
+{
+  "status": "valid/partial/inValid",
+  "errors": {
+    "code": "",
+    "message": ""
+  },
+  "lotBatchInfo": {
+    "attri1": "",
+    "attri2": ""
+  }
+}

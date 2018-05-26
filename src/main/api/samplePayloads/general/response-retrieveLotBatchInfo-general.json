@@ -1,0 +1,23 @@
+{
+  "status": "valid/partial/inValid",
+  "errors": {
+    "code": "",
+    "message": ""
+  },
+  "lotBatchInfo": [
+    {
+      "lotBatchNo": "lotBatchNo",
+      "lotBatchDetails": {
+        "attri1": "",
+        "attri2": ""
+      }
+    },
+    {
+      "lotBatchNo": "lotBatchNo",
+      "lotBatchDetails": {
+        "attri1": "",
+        "attri2": ""
+      }
+    }
+  ]
+}
